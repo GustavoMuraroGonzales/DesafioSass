@@ -1,0 +1,84 @@
+body {
+  background-color: rgba(226, 221, 221, 0.6980392157);
+}
+
+.central-de-pedidos {
+  flex-direction: column;
+  height: 400px;
+  width: 550px;
+  margin: 100px auto;
+  margin-left: 50px;
+}
+.central-de-pedidos h1 {
+  color: #333;
+  font-size: 19px;
+}
+.central-de-pedidos label {
+  display: inline;
+  color: #797373;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.central-de-pedidos input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.central-de-pedidos p {
+  color: #797373;
+  font-size: 15px;
+}
+
+.inputname label {
+  margin-left: 150px;
+}
+.inputname input {
+  width: 330px;
+}
+
+.postalcode-city label {
+  margin-left: 73px;
+}
+.postalcode-city #postalcode {
+  width: 100px;
+}
+.postalcode-city #City {
+  width: 204px;
+}
+
+.street-number label {
+  margin-left: 113px;
+}
+.street-number #street {
+  width: 204px;
+}
+.street-number #number {
+  width: 100px;
+}
+
+.purchaseorder label {
+  margin-left: 87px;
+}
+.purchaseorder input {
+  width: 330px;
+}
+
+.date-time label {
+  margin-left: 50px;
+}
+.date-time #date {
+  Width: 204px;
+}
+.date-time #appt-time {
+  width: 100px;
+}
+
+.value label {
+  margin-left: 125px;
+}
+.value #value {
+  width: 100px;
+}
+.value p {
+  display: inline;
+  margin-left: 10px;
+}/*# sourceMappingURL=index.css.map */
