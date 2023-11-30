@@ -1,0 +1,107 @@
+$bgTradicional: #e2ddddb2;
+$colortittle: #333;
+$colortxt: #797373;
+
+@mixin central-de-pedidos () {
+    flex-direction: column;
+    height: 400px;
+    width: 550px;
+    margin: 100px auto;
+}
+
+body {
+    background-color: $bgTradicional;
+}
+
+.central-de-pedidos {
+    @include central-de-pedidos ();
+    margin-left: 50px;
+    h1 {
+        color: $colortittle;
+        font-size: 19px;
+    }
+    label {
+        display: inline;
+        color: $colortxt;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    input {
+        padding: 10px;
+        margin-bottom: 10px;
+        
+    }
+    p {
+        color: $colortxt;
+        font-size: 15px;
+        
+    }
+}
+
+.inputname {
+    label {
+        margin-left: 150px;
+    }
+    input {
+        width: 330px;
+    }
+}
+
+.postalcode-city {
+    label {
+        margin-left: 73px;
+    }
+    #postalcode {
+        width: 100px;
+    }
+    #City {
+        width: 204px;
+    }
+}
+
+.street-number {
+    label {
+        margin-left: 113px;
+    }
+    #street {
+        width: 204px;
+    }
+    #number {
+        width: 100px;
+    }
+}
+
+.purchaseorder {
+    label {
+        margin-left: 87px; 
+    }
+    input {
+        width: 330px;
+    }
+}
+
+.date-time {
+    label {
+        margin-left: 50px; 
+    }
+    #date {
+        Width: 204px;
+    }
+    #appt-time {
+        width: 100px;
+    }
+}
+
+.value {
+    label {
+        margin-left: 125px;
+    }
+    #value {
+        width: 100px;
+    }
+    p {
+        display: inline;
+        margin-left: 10px;
+    }
+}
+
