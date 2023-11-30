@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +7,44 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <h1>Customer Data</h1>
-    <form>
-        <label for="name">Name:</label>
-        <input type="" id="name" required>
-        <label for="">Postal Code / City:</label>
-        <input type="" id="postalcode" required>
-        <input type="" id="City" required>
-        <label for="street">Street / No.: </label>
-        <input type="" id="street" required>
-        <input type="" id="number" required>
-    </form>
-    <h1>Quotation Details</h1>
-    <form>
-        <label for="purchaseorder">Purchase Order:</label>
-        <input type="" id="purchaseorder" required>
-        <label for="date">Valid From date/Time:</label>
-        <input type="date" id="date" required>
-        <input id="appt-time" type="time" value="13:30" required>
-        <label for="netvalue">Net Value:</label>
-        <input type="number" min="0.00" max="10000.00" step="0.01" />
-        <p>EUR</p>
-    </form>
-
+    <div class="central-de-pedidos">
+        <div class="customerdatah1">
+            <h1>Customer Data</h1>
+        </div>
+        <form>
+            <div class="inputname">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="postalcode-city">
+                <label for="postalcode">Postal Code / City:</label>
+                <input type="number" id="postalcode" required>
+                <input type="text" id="City" required>
+            </div>
+            <div class="street-number">
+                <label for="street">Street / No.: </label>
+                <input type="text" id="street" required>
+                <input type="number" id="number" required>
+            </div>
+        </form>
+        <h1>Quotation Details</h1>
+        <form>
+            <div class="purchaseorder">
+                <label for="purchaseorder">Purchase Order:</label>
+                <input type="text" id="purchaseorder" required>
+            </div>
+            <div class="date-time">
+                <label for="date">Valid From date/Time:</label>
+                <input type="date" id="date" required>
+                <input id="appt-time" type="time" value="13:30" required>
+            </div>
+            <div class="value">
+                <label for="netvalue">Net Value:</label>
+                <input id="value" type="number" min="0.00" max="10000.00" step="0.01" />
+                <p>EUR</p>
+            </div>
+        </form>
+    </div>
 
 </body>
 </html>
